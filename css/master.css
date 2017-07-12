@@ -52,12 +52,12 @@ ul.nav a:focus{
   font-size: 5em;
 }
 
-.about{
+.about, .recipes{
   text-align: center;
   margin: 4em 0;
 }
 
-.about>h2{
+h2.div-head{
   text-transform: uppercase;
   border-bottom: 4px solid #F03B3B;
   border-radius: 2px;
@@ -67,7 +67,7 @@ ul.nav a:focus{
   margin: 1.5em 0;
 }
 
-.about>p{
+p.dev-text{
   font-size: 1.5em;
   margin-bottom: 2em;
 }
@@ -94,6 +94,42 @@ ul.nav a:focus{
   border-radius: 5px;
 }
 
+
+.recipe-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.recipe-content>h1{
+  font-size: 2.5em;
+  text-transform: capitalize;
+}
+.recipe-card>img{
+  width: 100%;
+}
+.recipe-content{
+  padding: 0 16px;
+}
+
+button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin: 16px 0 16px 0;
+
+}
+button:hover {
+    opacity: 0.7;
+}
 
 footer{
   padding: 1rem;
