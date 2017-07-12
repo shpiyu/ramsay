@@ -1,5 +1,6 @@
 body,html{
   height: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar{
@@ -50,9 +51,11 @@ ul.nav a:focus{
 .banner-text>h1{
   font-weight: bolder;
   font-size: 5em;
+  /* TODO: change the font */
+  font-family: '', sans-serif;
 }
 
-.about, .recipes{
+.about, .recipes, .tv, .contact{
   text-align: center;
   margin: 4em 0;
 }
@@ -100,6 +103,7 @@ p.dev-text{
   max-width: 300px;
   margin: auto;
   text-align: center;
+  margin-bottom: 16px
 }
 
 .recipe-content>h1{
@@ -125,10 +129,65 @@ button{
   width: 100%;
   font-size: 18px;
   margin: 16px 0 16px 0;
-
+  transition: all 0.2s;
 }
 button:hover {
     opacity: 0.7;
+}
+
+.contact{
+  background-image: url('../images/pasta.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact>h2{
+  color: white;
+  border-color: white;
+}
+
+.my-form{
+  text-align: left;
+  color: white;
+  font-size: 1.3em;
+}
+.my-form>p{
+  margin-bottom: 0;
+}
+.my-form>input, textarea{
+  width: 100%;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid white;
+  margin-bottom: 16px;
+}
+
+.my-form>input:focus, textarea:focus{
+  width: 100%;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid white;
+  margin-bottom: 16px;
+  outline-color: transparent;
+}
+.my-form button{
+  width: auto;
+  float: right;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 2px solid white;
+  padding: 12px 24px 12px 24px;
+  transition: all 0.5s;
+}
+
+.my-form button:hover{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  opacity: 1;
 }
 
 footer{

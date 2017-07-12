@@ -5,6 +5,8 @@
     <title>Gordon Ramsay</title>
     <!-- bootstrap cdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- my styles -->
     <link rel="stylesheet" href="css/master.css">
   </head>
@@ -33,7 +35,7 @@
         <h2 class="div-head">about</h2>
         <p class="dev-text">Internationally renowned, multi-Michelin starred chef Gordon Ramsay has opened a string of successful restaurants across the globe, from the UK and France to Singapore and Hong Kong, to the United States.
            Gordon has also become a star of the small screen both in the UK and internationally, with shows such as Kitchen Nightmares, Hell’s Kitchen, Hotel Hell and MasterChef US.</p>
-        <a href="#">find out more</a>
+        <button type="button" name="button">find out more</button>
       </div>
 
       <div class="recipes" id="recipes">
@@ -78,13 +80,27 @@
         <h2 class="div-head">TV shows</h2>
       </div>
 
-      <div class="contact" id="contact">
-        <h2 class="div-head">contact</h2>
 
-      </div>
 
     </div>
+    <div class="contact" id="contact">
+      <h2 class="div-head">contact</h2>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4">
+            <form class="my-form" action="index.html">
 
+              <p>Name</p>
+              <input type="text" name="name" value="">
+              <p>Email</p>
+              <input type="email" name="email" value="">
+              <p>Message</p>
+              <textarea name="msg" rows="4"></textarea>
+
+              <button class="form-button" type="button" name="button">send</button>
+            </form>
+          </div>
+        </div>
+    </div>
     <footer>
       lorem ipsum
     </footer>
